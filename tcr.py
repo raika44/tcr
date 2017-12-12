@@ -1,23 +1,23 @@
 # -*- coding: utf-8 -*-
 #baru
-import Acil
-from Acil.lib.curve.ttypes import *
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
-cl = Acil.LINE()
+cl = LINETCR.LINE()
 cl.login(token="EnHZ13lS8hRHKLhetqrc.eoXp0xK1vqkdnL9Q78yCpa.mM3xj1D0c8y4s7PX53fnwFdljjHzp8WrDtu5g2fj1bA=")
 cl.loginResult()
 
-kt = Acil.LINE()
+kt = LINETCR.LINE()
 kt.login(token="En4aaHlzzXHaZrO74Sqb.672la4CfyuJmLCgFJdKosW.NjB/NCDLjL7uHp57WsQj7aTuwYZU3bcC55m8i0ggGk8=")
 kt.loginResult()
 
-ks = Acil.LINE()
+ks = LINETCR.LINE()
 ks.login(token="EnH35WQyaOLcZsHmZns2.Zm4gXz6MY8xdnV92S49yaG.xW+zBNcyqcVAIfVtWovHuFOerXkMXsS01er3E39OmF4=")
 ks.loginResult()
 
-ki = Acil.LINE()
+ki = LINETCR.LINE()
 ki.login(token="En8VVfFSRLQCDrZkYq34.AbZfX80renrInaDEsR0v1a.s62EO6keurG1/tmN3GEuq2IVk4/Rp1xNWTRqRtvZlYc=")
 ki.loginResult()
 
